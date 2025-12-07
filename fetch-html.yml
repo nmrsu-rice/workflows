@@ -15,7 +15,7 @@ jobs:
 
     - name: Download HTML from Google Drive
       run: |
-        curl -L -o live.html "https://drive.google.com/uc?export=download&id=1uTOl4e3FQ6vQBveY-QiFpV1xbZKXEhG8"
+        curl -L -o Automation500.html "https://drive.google.com/uc?export=download&id=1uTOl4e3FQ6vQBveY-QiFpV1xbZKXEhG8"
 
     - name: Commit and push if changed
       run: |
