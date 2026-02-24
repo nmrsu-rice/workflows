@@ -20,7 +20,7 @@ jobs:
       # Step 2: Download HTML file from Google Drive
       - name: Download HTML from Google Drive
         run: |
-          FILE_URL="https://drive.google.com/uc?export=download&id=1uTOl4e3FQ6vQBveY-QiFpV1xbZKXEhG8"
+          FILE_URL=""
           curl -L -o Automation500.html "$FILE_URL" || echo "Download failed, skipping commit"
 
       # Step 3: Commit and push changes if the file changed
